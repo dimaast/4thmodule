@@ -6,6 +6,8 @@ body {
   width: 100%;
   background-color: #f2f2f2;
   color: #010AC9;
+  font-size: 1.875vw;
+  font-weight: 400;
 }
 
 nav {
@@ -44,8 +46,61 @@ a {
 }
 
 .petblock {
+  position: relative;
   width: 46.875vw;
   height: 46.875vw;
   background-color: #010AC9;
   border-radius: 2.083vw;
+  margin: 2.396vw 0vw 0vw 2.083vw;
+}
+
+button {
+  position: relative;
+  width: 13.542vw;
+  height: 3.125vw;
+  font-family: inherit;
+  font-size: 2.083vw;
+  border-radius: 2.083vw;
+  text-transform: uppercase;
+}
+
+button#rabbit {
+  background-color: #010AC9;
+  color: #f2f2f2;
+  border: none;
+}
+
+p {
+  width: 42.292vw;
+  line-height: 2.240vw;
+  margin: 0.833vw 0vw 0vw 0vw;
+}
+
+button#bear {
+  background-color: #f2f2f2;
+  color: #010AC9;
+  border: solid;
+  border-width: 0.130vw;
+}
+
+button#duck {
+  background-color: #f2f2f2;
+  color: #010AC9;
+  border: solid;
+  border-width: 0.130vw;
+}
+
+button#bear, button#duck {
+  margin: 0vw 0vw 0vw 0.990vw;
+}
+
+.petnameblock {
+  margin: 1.615vw 0vw 0vw 0vw;
+}
+
+.petname {
+  text-transform: uppercase;
+  font-size: 2.604vw;
+  font-weight: 600;
+  line-height: 3.125vw;
 }
