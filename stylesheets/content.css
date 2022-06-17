@@ -35,12 +35,12 @@ a {
 .logo {
   position: relative;
   width: 6.250vw;
-  height: 5.208vw;
+  height: 5.156vw;
   background-image: url('../img/logo.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  margin: 0vw 0vw 0vw 32.813vw;
+  margin: -3.854vw 0vw 0vw 91.979vw;
 }
 
 .petblock {
