@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'TT Travels';
+	src: url('../fonts/TT Travels Educational Regular.ttf');
+	src: local('TT Travels Educational Regular'), local('TT Travels Educational Regular'),
+		url('..fonts/TT Travels Educational Regular.ttf') format('ttf'),
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'TT Travels';
+	src: url('../fonts/TT Travels Educational Medium.ttf');
+	src: local('TT Travels Educational Medium'), local('TT Travels Educational Medium'),
+		url('..fonts/TT Travels Educational Medium.ttf') format('ttf'),
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'TT Travels';
+	src: url('../fonts/TT Travels Educational DemiBold.ttf');
+	src: local('TT Travels Educational DemiBold'), local('TT Travels Educational DemiBold'),
+		url('..fonts/TT Travels Next Educational DemiBold.ttf') format('ttf'),
+	font-style: normal;
+	font-weight: 600;
+}
