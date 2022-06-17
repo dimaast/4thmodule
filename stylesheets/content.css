@@ -6,5 +6,46 @@ body {
   width: 100%;
   background-color: #f2f2f2;
   color: #010AC9;
-  cursor: none;
+}
+
+nav {
+  position: relative;
+  margin: 2.396vw 0vw 0vw 2.083vw;
+}
+
+a {
+  color: inherit;
+}
+
+.h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.083vw;
+  text-decoration: none;
+}
+
+.shelter, .events, .pets, .shop {
+  padding: 0vw 0vw 0vw 1.979vw;
+}
+
+.activelink {
+  color: #FF5903;
+}
+
+.logo {
+  position: relative;
+  width: 6.250vw;
+  height: 5.208vw;
+  background-image: url('../img/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin: 0vw 0vw 0vw 32.813vw;
+}
+
+.petblock {
+  width: 46.875vw;
+  height: 46.875vw;
+  background-color: #010AC9;
+  border-radius: 2.083vw;
 }
