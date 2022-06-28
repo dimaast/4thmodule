@@ -12,11 +12,28 @@ body {
 
 nav {
   position: relative;
-  margin: 2.396vw 0vw 0vw 2.083vw;
+  margin: 2.6vw 0vw 0vw 3.08vw;
 }
 
 a {
   color: inherit;
+}
+
+#screen1 {
+  overflow: hidden;
+  background: url('../fon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.conteiner {
+  margin: 1.3vw 0vw 0vw 2.083vw;
+  width: 95.833vw;
+  height: 46.927vw;
+  border-radius: 2.083vw;
+  background-color: #010AC9;
+  opacity: 0.4;
 }
 
 .h3 {
@@ -27,7 +44,7 @@ a {
 }
 
 .shelter, .events, .pets, .shop {
-  padding: 0vw 0vw 0vw 1.979vw;
+  padding: 0vw 0vw 0vw 1.6vw;
 }
 
 .activelink {
