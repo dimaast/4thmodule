@@ -21,19 +21,44 @@ a {
 
 #screen1 {
   overflow: hidden;
-  background: url('../fon.png');
-  background-position: center;
+  background: url('../fon1.png');
+  background-position: top;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
 .conteiner {
-  margin: 1.3vw 0vw 0vw 2.083vw;
+  margin: 2.6vw 0vw 0vw 2.083vw;
   width: 95.833vw;
   height: 46.927vw;
   border-radius: 2.083vw;
   background-color: #010AC9;
-  opacity: 0.4;
+  opacity: 0.3;
+}
+
+h1 {
+  font-size: 6.771vw;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  width: 30.260vw;
+  padding: 2.7vw 0vw 0vw 2.604vw;
+}
+
+.textframe {
+  position: relative;
+  color: #f2f2f2;
+  padding: 2.552vw 0vw 0vw 2.604vw;
+  width: 40.052vw;
+  margin: 0;
+}
+
+.framearea {
+  position: relative;
+  width: 44.792vw;
+  height: 27.448vw;
+  background-color: #f2f2f2;
+  border-radius: 1.250vw;
+  margin: -20vw 0vw 0vw 48.5vw;
 }
 
 .h3 {
@@ -88,6 +113,8 @@ button#rabbit {
 }
 
 p {
+  font-size: 2.083vw;
+  line-height: 2.500vw;
   width: 42.292vw;
   line-height: 2.240vw;
   margin: 0.833vw 0vw 0vw 0vw;
