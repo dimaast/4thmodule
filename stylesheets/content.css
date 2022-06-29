@@ -6,6 +6,7 @@ body {
   font-family: 'TT Travels', serif;
   font-weight: 600;
   width: 100%;
+  background: url('../fon1.png');
   background-color: #f2f2f2;
   color: #f2f2f2;
   font-size: 1.875vw;
@@ -19,58 +20,60 @@ a {
 
 /* Навигация */
 
-nav {
+.navigation {
   position: relative;
-  margin: 2.6vw 0vw 0vw 3.08vw;
+  margin: 1.5vw 0vw 0vw 3.08vw;
   color: #010AC9;
 }
 
 .navtext {
+  position: relative;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2.083vw;
+  display: inline-block;
 }
 
-.priyut, .events, .pets, .shop, .contact {
-  height: 5.781vw;
+.priyut, .pets, .contact, .events {
+  margin: 0vw 0vw 0vw 1.6vw;
 }
 
-.about {
-  width: 9.911vw;
-  height: 7.760vw;
-  background: url('../img/aboutactivelink.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-.activelink {
-  color: #f2f2f2;
-}
-
-.pets {
+.petsactivelink {
+  position: relative;
+  display: inline-block;
+  text-align: center;
   width: 14.759vw;
-  height: 7.760vw;
+  height: 5.781vw;
   background: url('../img/petsactivelink.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
-.priyut, .pets, .contact {
-  padding: 0vw 0vw 0vw 2.031vw;
+.pets {
+  color: #f2f2f2;
+  margin: 1.1vw 0vw 0vw 0vw;
 }
 
-.events {
-  padding: 0vw 0vw 0vw 1.979vw;
+/* Логотип */
+
+.logo {
+  position: relative;
+  width: 6.250vw;
+  height: 5.208vw;
+  background-image: url('../img/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin: -6.4vw 0vw 0vw 91.7vw;
 }
 
-.shop {
-  padding: 0vw 0vw 0vw 1.875vw;
-}
+/* Контейнер */
 
-.activelink {
-  width: 40px;
-  height: 40px;
-  background: url('./img/petsactivelink.svg')
+.container {
+  margin: 1.2vw 0vw 0vw 2.083vw;
+  width: 95.833vw;
+  height: 46.927vw;
+  border-radius: 2.083vw;
+  background-color: #010AC9;
 }
