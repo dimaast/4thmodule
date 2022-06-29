@@ -6,11 +6,13 @@ body {
   font-family: 'TT Travels', serif;
   font-weight: 600;
   width: 100%;
-  background: url('../fon1.png');
+  /* background: url('../fon1.png'); */
   background-color: #f2f2f2;
   color: #f2f2f2;
   font-size: 1.875vw;
+  line-height: 2.240vw;
   font-weight: 400;
+  overflow: hidden;
 }
 
 a {
@@ -35,6 +37,7 @@ a {
 }
 
 .priyut, .pets, .contact, .events {
+  position: relative;
   margin: 0vw 0vw 0vw 1.6vw;
 }
 
@@ -71,9 +74,113 @@ a {
 /* Контейнер */
 
 .container {
+  display: inline-block;
+  position: relative;
   margin: 1.2vw 0vw 0vw 2.083vw;
   width: 95.833vw;
   height: 46.927vw;
   border-radius: 2.083vw;
   background-color: #010AC9;
+}
+
+/* Большой квадратный блок */
+
+.bigsquareblock {
+  position: relative;
+  box-sizing: border-box;
+  width: 44.531vw;
+  height: 44.531vw;
+  background-color: #f2f2f2;
+  border-radius: 1.250vw;
+  margin: 1.146vw 0vw 0vw 1.146vw;
+}
+
+.buttons {
+  position: relative;
+  box-sizing: border-box;
+  margin: -34.1vw 0vw 0vw 51.8vw;
+}
+
+button.smallbuttons {
+  position: relative;
+  box-sizing: border-box;
+  width: 13.438vw;
+  height: 3.073vw;
+  font-size: 1.667vw;
+  border-radius: 2.083vw;
+  border: solid #f2f2f2 0.104vw;
+  text-transform: uppercase;
+  background-color: #010AC9;
+  color: #f2f2f2;
+}
+
+.petdataline {
+  margin: 1.510vw 0vw 0vw 52vw;
+}
+
+.petname {
+  text-transform: uppercase;
+  font-size: 2.448vw;
+  font-weight: 600;
+  line-height: 2.917vw;
+}
+
+.pettextblock {
+  width: 40.156vw;
+  margin: 0.781vw 0vw 0vw 52vw;
+}
+
+.like {
+  background: url('../img/inactivelike.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.petlike {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 4.844vw;
+  height: 4.844vw;
+  margin: 10.1vw 0vw -4.8vw 58.25vw;
+}
+
+.like:hover {
+  background: url('../img/activelike.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transition: 0.8s;
+}
+
+button.bigbuttons {
+  width: 28.229vw;
+  height: 4.844vw;
+  font-size: 3.333vw;
+  border-radius: 3.125vw;
+  border: solid #f2f2f2 0.104vw;
+  text-transform: uppercase;
+  background-color: #010AC9;
+  color: #f2f2f2;
+}
+
+button.bigbuttons:hover {
+  background-color: #f2f2f2;
+  color: #010AC9;
+  transition: 0.8s;
+}
+
+.takeaway {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0vw 0vw 0vw 64.115vw;
+}
+
+.mochi {
+  margin: -43.85vw 0vw 0vw 0vw;
+}
+
+.lucky {
+  margin: -43.85vw 0vw 0vw 0vw;
 }
