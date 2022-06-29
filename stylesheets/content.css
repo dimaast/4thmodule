@@ -58,6 +58,7 @@ a {
   text-align: center;
   width: 14.759vw;
   height: 5.781vw;
+  color: #f2f2f2;
   background: url('../img/petsactivelink.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -65,8 +66,20 @@ a {
 }
 
 .pets {
-  color: #f2f2f2;
   margin: 1.1vw 0vw 0vw 0vw;
+}
+
+.priyutactivelink {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 11.438vw;
+  height: 5.781vw;
+  color: #f2f2f2;
+  background: url('../img/priyutactivelink.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 /* Логотип */
