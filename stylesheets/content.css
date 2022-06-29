@@ -82,6 +82,10 @@ a {
   background-size: 100% auto;
 }
 
+a.priyutactivelink {
+  margin: 1.1vw 0vw 0vw 0vw;
+}
+
 /* Логотип */
 
 .logo {
