@@ -65,7 +65,7 @@ a {
   background-size: 100% auto;
 }
 
-.pets {
+a.petsactivelink {
   margin: 1.1vw 0vw 0vw 0vw;
 }
 
