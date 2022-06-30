@@ -3,23 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="../javascripts/java-script.js" charset="utf-8"></script>
     <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+    <script src="javascripts/java-script.js" charset="utf-8"></script>
     <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
     <title>Приют</title>
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
   </head>
   <body>
-    <div class="navigation">
-      <div class="aboutactivelink"><a class="navtext aboutactivelink" href="about.html">О нас</a></div>
-      <a class="navtext priyut" href="priyut.html">Приют</a>
-      <a class="navtext events" href="events.html">События</a>
-      <a class="navtext pets" href="./pets/pochi.html">Питомцы</a>
-      <a class="navtext shop" href="shop.html">Магазин</a>
-      <a class="navtext contact" href="contact.html">Связь</a>
-    </div>
-    <div class="logo" href="index.html"></div>
+    <nav>
+      <a class="navtext about activeelement activelink" href="about.html">О нас</a>
+      <a class="navtext priyut activeelement" href="priyut.html">Приют</a></div>
+      <a class="navtext events activeelement" href="events.html">События</a>
+      <a class="navtext pets activeelement" href="./pets/pochi.html">Питомцы</a>
+      <a class="navtext shop activeelement" href="shop.html">Магазин</a>
+      <a class="navtext contact activeelement" href="contact.html">Связь</a>
+    </nav>
+    <div class="logo about activeelement" href="index.html"></div>
     <div class="container">
+      <h1 class="firstheader about">Приют Gochi</h1>
+      <p>Приют виртуальных питомцев Гочи — место встречи с будущим другом.<br><br>Мы предлагаем большой спектр услуг — от создания питомца или адоптации уже существующего друга до образовательных программ и продажи средств для ухода за своим любимцем.</p>
+      <iframe class="rectangleblock aboutblock activeelement" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.714668690097!2d37.63336421592966!3d55.728710680546996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b193236fb6f%3A0xe90018517ce3a6c4!2z0YPQuy4g0JzQsNC70LDRjyDQn9C40L7QvdC10YDRgdC60LDRjywgMTIsINCc0L7RgdC60LLQsCwgMTE1MDU0!5e0!3m2!1sru!2sru!4v1656575979801!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <button class="contactus bigbuttons activeelement" type="button" name="button"><a href="contact.html">Связаться</a></button>
     </div>
     <div class="cursor"></div>
   </body>

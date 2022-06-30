@@ -3,34 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <script src="../javascripts/jquery-3.6.0.js" charset="utf-8"></script>
     <script src="../javascripts/java-script.js" charset="utf-8"></script>
-    <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
     <link href="../stylesheets/style.css" rel="stylesheet" type="text/css"/>
-    <title>Питомец Мочи</title>
+    <title>Питомец Почи</title>
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
   </head>
   <body>
-    <div class="navigation">
-      <a class="navtext about inactivelink" href="../about.html">О нас</a>
-      <a class="navtext priyut" href="../priyut.html">Приют</a>
-      <a class="navtext events" href="../events.html">События</a>
-      <div class="petsactivelink"><a class="navtext petsactivelink" href="pochi.html">Питомцы</a></div>
-      <a class="navtext shop" href="../shop.html">Магазин</a>
-      <a class="navtext contact" href="../contact.html">Связь</a>
-    </div>
-    <div class="logo"></div>
+    <nav>
+      <a class="navtext about activeelement" href="../about.html">О нас</a>
+      <a class="navtext priyut activeelement" href="../priyut.html">Приют</a>
+      <a class="navtext events activeelement" href="../events.html">События</a>
+      <a class="navtext pets activeelement activelink" href="pochi.html">Питомцы</a>
+      <a class="navtext shop activeelement" href="../shop.html">Магазин</a>
+      <a class="navtext contact activeelement" href="../contact.html">Связь</a>
+    </nav>
+    <div class="logo activeelement"></div>
     <div class="container">
       <div class="pochi">
         <div class="bigsquareblock mishka"></div>
         <div class="buttons">
-          <button class="krolik smallbuttons" type="button" name="button"><a href="pochi.html">Кролик</a></button>
-          <button class="mishka smallbuttons activesmallbutton" type="button" name="button"><a href="mochi.html">Мишка</a></button>
-          <button class="utka smallbuttons" type="button" name="button"><a href="lucky.html">Утка</a></button>
+          <button class="krolik smallbuttons activeelement" type="button" name="button"><a href="pochi.html">Кролик</a></button>
+          <button class="mishka smallbuttons activesmallbutton activeelement" type="button" name="button"><a href="mochi.html">Мишка</a></button>
+          <button class="utka smallbuttons activeelement" type="button" name="button"><a href="lucky.html">Утка</a></button>
         </div>
         <p class="petdataline"><span class="petname">Мочи</span>, 5 лет</p>
         <p class="pettextblock">Питомец-повар, знает более 500 блюд кухонь различных стран. Умеет готовить коктейли, быстрые перекусы, способен подобрать диету под ваши параметры.</p>
-        <div class="like petlike"></div>
-        <button class="takeaway bigbuttons" type="button" name="button">Забрать</button>
+        <div class="like petlike activeelement"></div>
+        <button class="takeaway bigbuttons activeelement" type="button" name="button">Забрать</button>
       </div>
     </div>
     <div class="cursor"></div>

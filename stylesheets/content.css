@@ -5,13 +5,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'TT Travels', serif;
   width: 100%;
-  background: url('../fon4.png');
+  /* background: url('../fon1.png'); */
   background-color: #f2f2f2;
   color: #f2f2f2;
   font-size: 2.083vw;
   line-height: 2.500vw;
   font-weight: 400;
   overflow: hidden;
+  cursor: none;
 }
 
 .cursor {
@@ -19,8 +20,8 @@ position: absolute;
 height: 40px;
 width: 40px;
 border-radius: 50%;
-border: 1px solid #f2f2f2;
-transition: border 0.5s ease,
+background-color: #FF5903;
+transition: background-color 0.5s ease,
             transform 0.5s ease;
 cursor: none;
 }
@@ -35,8 +36,12 @@ h1 {
 .firstheader {
   position: relative;
   box-sizing: border-box;
-  margin: 0.2vw 0vw 0vw 2.552vw;
+  margin: 2.656vw 0vw 0vw 2.552vw;
   opacity: 1;
+}
+
+.contactdone {
+  width: 58.802vw
 }
 
 .secondheader {
@@ -63,91 +68,38 @@ a#thirdfloor, a#firstfloor{
 a {
   color: inherit;
   text-decoration: none;
+  cursor: none;
 }
 
 p {
   width: 40.052vw;
-  margin: 2.5vw 0vw 0vw 2.552vw;
+  margin: 2.5vw 0vw -25vw 2.552vw;
 }
 
 /* Навигация */
 
-.navigation {
+nav {
   position: relative;
-  margin: 1.5vw 0vw 0vw 2.08vw;
-  padding: 0.9vw 0vw 0vw 1vw;
+  margin: 2.396vw 0vw 0vw 3.073vw;
   color: #010AC9;
 }
 
 .navtext {
   position: relative;
+  display: inline;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2.083vw;
   display: inline-block;
 }
 
-.priyut, .pets, .contact, .events {
-  position: relative;
-  margin: 0vw 0vw 0vw 1.6vw;
+.priyut, .events, .pets, .shop, .contact {
+  margin: 0vw 0vw 0vw 1.979vw;
 }
 
-.shop {
-  position: relative;
-  margin: 0vw 0vw 0vw 1.4vw;
+.activelink {
+  color: #FF5903;
 }
-
-.petsactivelink {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  width: 14.759vw;
-  height: 5.7vw;
-  color: #f2f2f2;
-  background: url('../img/petsactivelink.svg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-a.petsactivelink {
-  margin: 1.1vw 0vw 0vw 0vw;
-}
-
-.priyutactivelink {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  width: 11.438vw;
-  height: 5.7vw;
-  color: #f2f2f2;
-  background: url('../img/priyutactivelink.svg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-a.priyutactivelink {
-  margin: 1.1vw 0vw 0vw 0vw;
-}
-
-.aboutactivelink {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  width: 9.911vw;
-  height: 7.760vw;
-  color: #f2f2f2;
-  background: url('../img/aboutactivelink.svg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-a.aboutactivelink {
-  padding: 0.9vw 0vw 0vw 0vw;
-}
-
 /* Логотип */
 
 .logo {
@@ -166,7 +118,7 @@ a.aboutactivelink {
 .container {
   display: inline-block;
   position: relative;
-  margin: 1.2vw 0vw 0vw 2.083vw;
+  margin: 0.7vw 0vw 0vw 2.083vw;
   width: 95.833vw;
   height: 46.927vw;
   border-radius: 2.083vw;
@@ -185,12 +137,33 @@ a.aboutactivelink {
   margin: 1.146vw 0vw 0vw 1.146vw;
 }
 
+.littlesquareblock {
+  position: relative;
+  box-sizing: border-box;
+  width: 21.633vw;
+  height: 21.633vw;
+  background-color: #f2f2f2;
+  border-radius: 1.250vw;
+}
+
+.fblockshop {
+  margin:-27.35vw 0vw 0vw 45.6vw
+}
+
+.sblockshop {
+  margin:-27.35vw 0vw 0vw 45.6vw
+}
+
 /* Маленький прямоугольный блок */
 .rectangleblock {
   width: 44.531vw;
   height: 27.448vw;
   background-color: #f2f2f2;
   border-radius: 1.250vw;
+}
+
+button {
+  cursor: none;
 }
 
 .buttons {
@@ -322,4 +295,65 @@ display: none;
   box-sizing: border-box;
   margin: -24.6vw 0vw 0vw 48.75vw;
   z-index: 0;
+}
+
+.contactus {
+  position: relative;
+  box-sizing: border-box;
+  margin: 8.28vw 0vw 0vw 64.115vw;
+}
+
+.aboutblock {
+  position: relative;
+  box-sizing: border-box;
+  margin: -13.748vw 0vw 0vw 48.75vw;
+}
+
+input {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  background: transparent;
+  color: #6267DA;
+  font-family: 'TT Travels', serif;
+  font-size: 2.083vw;
+  line-height: 2.500vw;
+  width: 38vw;
+  border: none;
+  border-bottom: solid 0.156vw #f2f2f2;
+}
+
+.inputblocks {
+  margin: 29.6vw 0vw 0vw 2.552vw;
+}
+
+.nameblock {
+  margin: 1vw 0vw 0vw 0vw;
+}
+
+.textcontactblock {
+  margin: 3.8vw 0vw -10.777vw 0vw;
+}
+
+.cart {
+  position: absolute;
+  box-sizing: border-box;
+  width: 29.038vw;
+  height: 39.063vw;
+  background: url('../img/cart.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin: -26vw 0vw 0vw 63.2vw;
+}
+
+.krolik {
+
+}
+
+.tshirt {
+  width: 35.362vw;
+  height: 30.990vw;
+  box-sizing: border-box;
+  margin: 6.771vw 0vw 0vw 4.740vw;
 }
