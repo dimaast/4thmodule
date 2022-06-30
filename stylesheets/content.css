@@ -4,13 +4,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'TT Travels', serif;
-  font-weight: 600;
   width: 100%;
-  /* background: url('../fon1.png'); */
+  /* background: url('../fon2.png'); */
   background-color: #f2f2f2;
   color: #f2f2f2;
-  font-size: 1.875vw;
-  line-height: 2.240vw;
+  font-size: 2.083vw;
+  line-height: 2.500vw;
   font-weight: 400;
   overflow: hidden;
 }
@@ -26,9 +25,49 @@ transition: border 0.5s ease,
 cursor: none;
 }
 
+h1 {
+  font-size: 6.771vw;
+  line-height: 6.771vw;
+  width: 30.260vw;
+  text-transform: uppercase;
+}
+
+.firstheader {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0.2vw 0vw 0vw 2.552vw;
+  opacity: 1;
+}
+
+.secondheader {
+  position: relative;
+  box-sizing: border-box;
+  margin: -13.5vw 0vw 0vw 2.552vw;
+  opacity: 0;
+}
+
+a#fourthfloor, a#thirdfloor, a#secondfloor, a#firstfloor {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+
+a#fourthfloor, a#secondfloor{
+  margin-left: 70.313vw;
+}
+
+a#thirdfloor, a#firstfloor{
+  margin-left: 7.292vw;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p {
+  width: 40.052vw;
+  margin: 2.5vw 0vw 0vw 2.552vw;
 }
 
 /* Навигация */
@@ -57,7 +96,7 @@ a {
   display: inline-block;
   text-align: center;
   width: 14.759vw;
-  height: 5.781vw;
+  height: 5.7vw;
   color: #f2f2f2;
   background: url('../img/petsactivelink.svg');
   background-position: center;
@@ -74,7 +113,7 @@ a.petsactivelink {
   display: inline-block;
   text-align: center;
   width: 11.438vw;
-  height: 5.781vw;
+  height: 5.7vw;
   color: #f2f2f2;
   background: url('../img/priyutactivelink.svg');
   background-position: center;
@@ -123,6 +162,14 @@ a.priyutactivelink {
   margin: 1.146vw 0vw 0vw 1.146vw;
 }
 
+/* Маленький прямоугольный блок */
+.rectangleblock {
+  width: 44.531vw;
+  height: 27.448vw;
+  background-color: #f2f2f2;
+  border-radius: 1.250vw;
+}
+
 .buttons {
   position: relative;
   box-sizing: border-box;
@@ -142,6 +189,12 @@ button.smallbuttons {
   color: #f2f2f2;
 }
 
+button.activesmallbutton {
+  background-color: #f2f2f2;
+  color: #010AC9;
+}
+
+
 .petdataline {
   margin: 1.510vw 0vw 0vw 52vw;
 }
@@ -155,6 +208,8 @@ button.smallbuttons {
 
 .pettextblock {
   width: 40.156vw;
+  font-size: 1.875vw;
+  line-height: 2.240vw;
   margin: 0.781vw 0vw 0vw 52vw;
 }
 
@@ -206,9 +261,42 @@ button.bigbuttons:hover {
 }
 
 .mochi {
-  margin: -43.76vw 0vw 0vw 0vw;
+  margin: -43.8vw 0vw 0vw 0vw;
 }
 
 .lucky {
-  margin: -43.76vw 0vw 0vw 0vw;
+  margin: -43.8vw 0vw 0vw 0vw;
+}
+
+/* Страница приюта */
+
+.priyutscroll {
+  width: 94.684vw;
+  height: 41.86vw;
+  overflow-y: scroll;
+  margin: 2.656vw 0vw 0vw 0vw;
+}
+
+.priyutscroll::-webkit-scrollbar {
+display: none;
+}
+
+#zdanie {
+  position: relative;
+  box-sizing: border-box;
+  width: 39.010vw;
+  height: 37.448vw;
+  margin: -39.76vw 0vw 0vw 52vw;
+  background: url('../img/zdanie.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 1;
+}
+
+.priyutblock {
+  position: relative;
+  box-sizing: border-box;
+  margin: -24.6vw 0vw 0vw 48.75vw;
+  z-index: 0;
 }
