@@ -22,7 +22,7 @@ container.appendChild(renderer.domElement)
 //model
 {
 let loader = new GLTFLoader();
-loader.load('./img/pzdc.gltf', gltf => {
+loader.load('../img/pzdc.gltf', gltf => {
 mesh = gltf.scene;
 mesh.traverse( child => {
 if ( child.material ) child.material.metalness = 0.9;
@@ -58,14 +58,6 @@ camera.position.set( 150, 100, 0 );
 controls.enableDamping = true;
 };
 init();
-});
-
-// Курсор
-$(document).mousemove(function(e) {
-  $('.cursor').css({
-    left:e.pageX - 6,
-    top:e.pageY - 6
-  });
 });
 
 // Анимация курсора при наведении на активный объект
